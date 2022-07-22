@@ -1,2 +1,2 @@
 # iOSAppPracticeProjects
-This contains iOS projects for practice.
+This contains iOS(version 15) app projects for practice with Xcode13.
