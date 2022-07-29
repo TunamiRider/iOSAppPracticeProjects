@@ -45,6 +45,7 @@
 		F4702D1528945B7D0065A4A1 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4702D1428945B7D0065A4A1 /* VideoPlayerView.swift */; };
 		F4702D1828945C680065A4A1 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4702D1728945C680065A4A1 /* VideoPlayerHelper.swift */; };
 		F4702D1C28946A330065A4A1 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4702D1B28946A330065A4A1 /* LocationModel.swift */; };
+		F4702D1E289470CD0065A4A1 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4702D1D289470CD0065A4A1 /* MapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		F4702D1428945B7D0065A4A1 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		F4702D1728945C680065A4A1 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		F4702D1B28946A330065A4A1 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		F4702D1D289470CD0065A4A1 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 				F4702D0E2894318E0065A4A1 /* ExternalWeblinkView.swift */,
 				F4702D12289443C40065A4A1 /* VideoListItemView.swift */,
 				F4702D1428945B7D0065A4A1 /* VideoPlayerView.swift */,
+				F4702D1D289470CD0065A4A1 /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				F4702D1828945C680065A4A1 /* VideoPlayerHelper.swift in Sources */,
 				F4702D0D28942E7A0065A4A1 /* InsetMapView.swift in Sources */,
 				F44D1202289304250074A3A9 /* CoverImage.swift in Sources */,
+				F4702D1E289470CD0065A4A1 /* MapAnnotationView.swift in Sources */,
 				F44D11F42892EF610074A3A9 /* VideoListView.swift in Sources */,
 				F4702D112894436D0065A4A1 /* VideoModel.swift in Sources */,
 				F44D11F82892EF800074A3A9 /* GalleryView.swift in Sources */,
