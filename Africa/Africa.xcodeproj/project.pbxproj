@@ -44,6 +44,7 @@
 		F4702D13289443C40065A4A1 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4702D12289443C40065A4A1 /* VideoListItemView.swift */; };
 		F4702D1528945B7D0065A4A1 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4702D1428945B7D0065A4A1 /* VideoPlayerView.swift */; };
 		F4702D1828945C680065A4A1 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4702D1728945C680065A4A1 /* VideoPlayerHelper.swift */; };
+		F4702D1C28946A330065A4A1 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4702D1B28946A330065A4A1 /* LocationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		F4702D12289443C40065A4A1 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		F4702D1428945B7D0065A4A1 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		F4702D1728945C680065A4A1 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		F4702D1B28946A330065A4A1 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 				F44D1201289304250074A3A9 /* CoverImage.swift */,
 				F44D120828930B780074A3A9 /* AnimalModel.swift */,
 				F4702D102894436C0065A4A1 /* VideoModel.swift */,
+				F4702D1B28946A330065A4A1 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				F44D11F42892EF610074A3A9 /* VideoListView.swift in Sources */,
 				F4702D112894436D0065A4A1 /* VideoModel.swift in Sources */,
 				F44D11F82892EF800074A3A9 /* GalleryView.swift in Sources */,
+				F4702D1C28946A330065A4A1 /* LocationModel.swift in Sources */,
 				F44D120F289315260074A3A9 /* InsetGalleryView.swift in Sources */,
 				F4702D13289443C40065A4A1 /* VideoListItemView.swift in Sources */,
 				F44D1205289305100074A3A9 /* CodableBundleExtension.swift in Sources */,
