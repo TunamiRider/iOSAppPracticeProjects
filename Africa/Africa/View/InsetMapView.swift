@@ -12,6 +12,7 @@ struct InsetMapView: View {
     // MARK: PROPERTIES
     
     @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 6.600286, longitude: 16.4377599), span: MKCoordinateSpan(latitudeDelta: 60.0, longitudeDelta: 60.0))
+    
     // MARK: BODY
     var body: some View {
         Map(coordinateRegion: $region)

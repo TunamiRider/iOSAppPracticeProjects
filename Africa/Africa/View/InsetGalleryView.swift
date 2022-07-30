@@ -11,6 +11,7 @@ struct InsetGalleryView: View {
     // MARK: PROPERTIES
     
     let animal: Animal
+    
     // MARK: BODY
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
@@ -22,7 +23,6 @@ struct InsetGalleryView: View {
                         .frame(height: 200)
                         .cornerRadius(12)
                 }
-
             } //: HSTACK
         }
     }
