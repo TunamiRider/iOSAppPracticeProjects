@@ -15,7 +15,29 @@ struct ContentView: View {
     
     @State private var isGridViewActive: Bool = false
     
-    let gridLayout: [GridItem] = Array(repeating: GridItem(.flexible()), count: 2)
+    //let gridLayout: [GridItem] = Array(repeating: GridItem(.flexible()), count: 2)
+    @State private var gridLayout: [GridItem] = [ GridItem(.flexible()) ]
+    @State private var gridColum: Int = 1
+    @State private var toolbarIcon: String = "square.grid.2x2"
+    
+    //: MARK: - FUNCTIONS
+    func gridSwitch() {
+        gridLayout = Array(repeating: .init(.flexible()), count: gridLayout.count % 3 + 1)
+        gridColum = gridLayout.count
+        
+        // TOOLBAR IMAGE
+        switch gridColum {
+            case 1:
+                toolbarIcon = "square.grid.2x2"
+            case 2:
+                toolbarIcon = "square.grid.3x2"
+            case 3:
+                toolbarIcon = "rectangle.grid.1x2"
+            default:
+                toolbarIcon = "square.grid.2x2"
+        }
+    }
+    
     // MARK: - BODY
     
     var body: some View {
@@ -33,7 +55,6 @@ struct ContentView: View {
                             NavigationLink(destination: AnimalDetailView(animal: animal)) {
                                 AnimalListItemView(animal: animal)
                             }
-                            
                         }
                     } //: LIST
                 } else {
@@ -70,15 +91,16 @@ struct ContentView: View {
                             print("Brid view is activated")
                             isGridViewActive = true
                             haptics.impactOccurred()
+                            gridSwitch()
                         }) {
-                            Image(systemName: "square.grid.2x2")
+                            Image(systemName: toolbarIcon)
                                 .font(.title2)
                                 .foregroundColor(isGridViewActive ? .accentColor : .primary)
                         }
                         
                     } //: HSTACK
-                } //:
-            } //
+                } //: TABITEM
+            } //: TOOLBAR
         } //: NAVIGATION
     }
 }
