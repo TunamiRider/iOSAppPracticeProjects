@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		F408458728998DB7002E7C92 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408458628998DB7002E7C92 /* NavigationBarView.swift */; };
 		F408458928998EC7002E7C92 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408458828998EC7002E7C92 /* LogoView.swift */; };
+		F408458B2899955E002E7C92 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408458A2899955E002E7C92 /* PlayerModel.swift */; };
+		F408458D289995B8002E7C92 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408458C289995B8002E7C92 /* CodableBundleExtension.swift */; };
+		F408458F2899992B002E7C92 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408458E2899992B002E7C92 /* FeaturedItemView.swift */; };
+		F40845912899998C002E7C92 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40845902899998C002E7C92 /* FeaturedTabView.swift */; };
 		F4C9C8562899794E007584D8 /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C9C8552899794E007584D8 /* TouchdownApp.swift */; };
 		F4C9C8582899794E007584D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C9C8572899794E007584D8 /* ContentView.swift */; };
 		F4C9C85A2899794F007584D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C9C8592899794F007584D8 /* Assets.xcassets */; };
@@ -24,6 +28,10 @@
 /* Begin PBXFileReference section */
 		F408458628998DB7002E7C92 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		F408458828998EC7002E7C92 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		F408458A2899955E002E7C92 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		F408458C289995B8002E7C92 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		F408458E2899992B002E7C92 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		F40845902899998C002E7C92 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		F4C9C8522899794E007584D8 /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C9C8552899794E007584D8 /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		F4C9C8572899794E007584D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,6 +139,8 @@
 				F4C9C87628997D2B007584D8 /* FooterView.swift */,
 				F408458628998DB7002E7C92 /* NavigationBarView.swift */,
 				F408458828998EC7002E7C92 /* LogoView.swift */,
+				F408458E2899992B002E7C92 /* FeaturedItemView.swift */,
+				F40845902899998C002E7C92 /* FeaturedTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -146,6 +156,7 @@
 		F4C9C87228997BAE007584D8 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				F408458C289995B8002E7C92 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -153,6 +164,7 @@
 		F4C9C87328997BBE007584D8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F408458A2899955E002E7C92 /* PlayerModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -231,12 +243,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F408458D289995B8002E7C92 /* CodableBundleExtension.swift in Sources */,
 				F4C9C8582899794E007584D8 /* ContentView.swift in Sources */,
 				F408458928998EC7002E7C92 /* LogoView.swift in Sources */,
 				F4C9C87728997D2B007584D8 /* FooterView.swift in Sources */,
+				F408458F2899992B002E7C92 /* FeaturedItemView.swift in Sources */,
 				F4C9C8562899794E007584D8 /* TouchdownApp.swift in Sources */,
 				F4C9C87528997C66007584D8 /* Constant.swift in Sources */,
 				F408458728998DB7002E7C92 /* NavigationBarView.swift in Sources */,
+				F40845912899998C002E7C92 /* FeaturedTabView.swift in Sources */,
+				F408458B2899955E002E7C92 /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
