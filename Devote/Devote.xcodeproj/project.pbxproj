@@ -19,6 +19,8 @@
 		F457A60E28B022C80086F553 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F457A60D28B022C80086F553 /* Constant.swift */; };
 		F4E5093B28B5623E006F2590 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5093A28B5623E006F2590 /* HideKeyboardExtension.swift */; };
 		F4E5093D28B566E8006F2590 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5093C28B566E8006F2590 /* BackgroundImageView.swift */; };
+		F4E5093F28B56FF6006F2590 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5093E28B56FF6006F2590 /* NewTaskView.swift */; };
+		F4E5094128B5776B006F2590 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5094028B5776B006F2590 /* BlankView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		F457A60D28B022C80086F553 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		F4E5093A28B5623E006F2590 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		F4E5093C28B566E8006F2590 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		F4E5093E28B56FF6006F2590 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		F4E5094028B5776B006F2590 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,8 @@
 			children = (
 				F457A5E928AED3FA0086F553 /* ContentView.swift */,
 				F4E5093C28B566E8006F2590 /* BackgroundImageView.swift */,
+				F4E5093E28B56FF6006F2590 /* NewTaskView.swift */,
+				F4E5094028B5776B006F2590 /* BlankView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -218,6 +224,8 @@
 				F4E5093D28B566E8006F2590 /* BackgroundImageView.swift in Sources */,
 				F457A5EA28AED3FA0086F553 /* ContentView.swift in Sources */,
 				F4E5093B28B5623E006F2590 /* HideKeyboardExtension.swift in Sources */,
+				F4E5094128B5776B006F2590 /* BlankView.swift in Sources */,
+				F4E5093F28B56FF6006F2590 /* NewTaskView.swift in Sources */,
 				F457A60E28B022C80086F553 /* Constant.swift in Sources */,
 				F457A5F428AED3FC0086F553 /* Devote.xcdatamodeld in Sources */,
 				F457A5E828AED3FA0086F553 /* DevoteApp.swift in Sources */,
