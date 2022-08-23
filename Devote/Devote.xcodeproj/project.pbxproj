@@ -17,6 +17,7 @@
 		F457A5FE28B012590086F553 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F457A5FB28B012590086F553 /* sound-ding.mp3 */; };
 		F457A60828B019A10086F553 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F457A60728B019A10086F553 /* sound-tap.mp3 */; };
 		F457A60E28B022C80086F553 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F457A60D28B022C80086F553 /* Constant.swift */; };
+		F4E5093B28B5623E006F2590 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5093A28B5623E006F2590 /* HideKeyboardExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F457A60628B0139C0086F553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F457A60728B019A10086F553 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		F457A60D28B022C80086F553 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F4E5093A28B5623E006F2590 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		F457A60128B012890086F553 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				F4E5093A28B5623E006F2590 /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				F457A5F128AED3FC0086F553 /* Persistence.swift in Sources */,
 				F457A5EA28AED3FA0086F553 /* ContentView.swift in Sources */,
+				F4E5093B28B5623E006F2590 /* HideKeyboardExtension.swift in Sources */,
 				F457A60E28B022C80086F553 /* Constant.swift in Sources */,
 				F457A5F428AED3FC0086F553 /* Devote.xcdatamodeld in Sources */,
 				F457A5E828AED3FA0086F553 /* DevoteApp.swift in Sources */,
