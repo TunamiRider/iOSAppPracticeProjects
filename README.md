@@ -22,6 +22,8 @@ This contains iOS(version 15) app projects for practice with Xcode13.
   * Having a map system locating animals in Africa
   
 -- Touchdown
-  *
-  *
-  *
+  * Shows nice E-commerce page with search button, logo with a description, and cart
+  * Use models to display each shared item such as helmet, category, and player
+  * navigate to detail views of each shared product through EnvironmentObject from the product image in the home screen
+
+-- 
