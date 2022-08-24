@@ -26,4 +26,7 @@ This contains iOS(version 15) app projects for practice with Xcode13.
   * Use models to display each shared item such as helmet, category, and player
   * navigate to detail views of each shared product through EnvironmentObject from the product image in the home screen
 
--- 
+-- Devote
+  * Displays todo list with features such as checkbox, delete button, and dark mode button
+  * Having sound, haptic, and blurr effects when tapped.
+  * Able to choose custom app icons through widget framework. 
