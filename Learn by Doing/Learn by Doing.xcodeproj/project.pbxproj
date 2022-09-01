@@ -15,6 +15,10 @@
 		F4A4018128C1077700F24029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A4017F28C1077700F24029 /* LaunchScreen.storyboard */; };
 		F4A4018928C10F7700F24029 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4018828C10F7700F24029 /* CardView.swift */; };
 		F4A4018B28C1103B00F24029 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4018A28C1103B00F24029 /* ContentView.swift */; };
+		F4A4018D28C119A900F24029 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4018C28C119A900F24029 /* CardModel.swift */; };
+		F4A4018F28C11A4700F24029 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4018E28C11A4700F24029 /* CardData.swift */; };
+		F4A4019128C11D2200F24029 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4A4019028C11D2200F24029 /* sound-chime.mp3 */; };
+		F4A4019328C11D3300F24029 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4019228C11D3300F24029 /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		F4A4018228C1077700F24029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4A4018828C10F7700F24029 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F4A4018A28C1103B00F24029 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4A4018C28C119A900F24029 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		F4A4018E28C11A4700F24029 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		F4A4019028C11D2200F24029 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
+		F4A4019228C11D3300F24029 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +68,18 @@
 		F4A4017328C1077600F24029 /* Learn by Doing */ = {
 			isa = PBXGroup;
 			children = (
+				F4A4019028C11D2200F24029 /* sound-chime.mp3 */,
 				F4A4017428C1077600F24029 /* AppDelegate.swift */,
 				F4A4017628C1077600F24029 /* SceneDelegate.swift */,
 				F4A4017828C1077600F24029 /* ViewController.swift */,
 				F4A4018A28C1103B00F24029 /* ContentView.swift */,
+				F4A4019228C11D3300F24029 /* PlaySound.swift */,
+				F4A4018828C10F7700F24029 /* CardView.swift */,
+				F4A4018C28C119A900F24029 /* CardModel.swift */,
+				F4A4018E28C11A4700F24029 /* CardData.swift */,
 				F4A4017A28C1077600F24029 /* Main.storyboard */,
 				F4A4017D28C1077700F24029 /* Assets.xcassets */,
 				F4A4017F28C1077700F24029 /* LaunchScreen.storyboard */,
-				F4A4018828C10F7700F24029 /* CardView.swift */,
 				F4A4018228C1077700F24029 /* Info.plist */,
 			);
 			path = "Learn by Doing";
@@ -132,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A4018128C1077700F24029 /* LaunchScreen.storyboard in Resources */,
+				F4A4019128C11D2200F24029 /* sound-chime.mp3 in Resources */,
 				F4A4017E28C1077700F24029 /* Assets.xcassets in Resources */,
 				F4A4017C28C1077600F24029 /* Main.storyboard in Resources */,
 			);
@@ -145,10 +158,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A4017928C1077600F24029 /* ViewController.swift in Sources */,
+				F4A4019328C11D3300F24029 /* PlaySound.swift in Sources */,
 				F4A4018B28C1103B00F24029 /* ContentView.swift in Sources */,
 				F4A4017528C1077600F24029 /* AppDelegate.swift in Sources */,
+				F4A4018F28C11A4700F24029 /* CardData.swift in Sources */,
 				F4A4018928C10F7700F24029 /* CardView.swift in Sources */,
 				F4A4017728C1077600F24029 /* SceneDelegate.swift in Sources */,
+				F4A4018D28C119A900F24029 /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
