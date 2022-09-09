@@ -12,6 +12,9 @@
 		F45DD5EC28CBD7E500337192 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45DD5EB28CBD7E500337192 /* SettingsView.swift */; };
 		F45DD5EE28CBD80800337192 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45DD5ED28CBD80800337192 /* AppView.swift */; };
 		F45DD5F028CBDF0400337192 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45DD5EF28CBDF0400337192 /* HeaderView.swift */; };
+		F45DD5F228CBE5F300337192 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45DD5F128CBE5F300337192 /* HeaderModel.swift */; };
+		F45DD5F428CBE64F00337192 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45DD5F328CBE64F00337192 /* HeaderData.swift */; };
+		F45DD5F628CBEAEB00337192 /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45DD5F528CBEAEB00337192 /* DishesView.swift */; };
 		F4A3B3EB28C949130060D579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3B3EA28C949130060D579 /* AppDelegate.swift */; };
 		F4A3B3ED28C949130060D579 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3B3EC28C949130060D579 /* SceneDelegate.swift */; };
 		F4A3B3EF28C949130060D579 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3B3EE28C949130060D579 /* ViewController.swift */; };
@@ -27,6 +30,9 @@
 		F45DD5EB28CBD7E500337192 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F45DD5ED28CBD80800337192 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		F45DD5EF28CBDF0400337192 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F45DD5F128CBE5F300337192 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		F45DD5F328CBE64F00337192 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		F45DD5F528CBEAEB00337192 /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 		F4A3B3E728C949130060D579 /* Avocados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A3B3EA28C949130060D579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4A3B3EC28C949130060D579 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +58,7 @@
 		F45DD5E428CBD6E400337192 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				F45DD5F328CBE64F00337192 /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -65,6 +72,7 @@
 				F45DD5EB28CBD7E500337192 /* SettingsView.swift */,
 				F45DD5ED28CBD80800337192 /* AppView.swift */,
 				F45DD5EF28CBDF0400337192 /* HeaderView.swift */,
+				F45DD5F528CBEAEB00337192 /* DishesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -72,6 +80,7 @@
 		F45DD5E628CBD71200337192 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F45DD5F128CBE5F300337192 /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,10 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45DD5F428CBE64F00337192 /* HeaderData.swift in Sources */,
 				F45DD5EC28CBD7E500337192 /* SettingsView.swift in Sources */,
+				F45DD5F628CBEAEB00337192 /* DishesView.swift in Sources */,
 				F45DD5F028CBDF0400337192 /* HeaderView.swift in Sources */,
 				F45DD5E828CBD7A800337192 /* AvocadosView.swift in Sources */,
 				F45DD5EA28CBD7D300337192 /* RipeningStageView.swift in Sources */,
+				F45DD5F228CBE5F300337192 /* HeaderModel.swift in Sources */,
 				F4A3B3EF28C949130060D579 /* ViewController.swift in Sources */,
 				F45DD5EE28CBD80800337192 /* AppView.swift in Sources */,
 				F4A3B3EB28C949130060D579 /* AppDelegate.swift in Sources */,
