@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F45DD5E828CBD7A800337192 /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45DD5E728CBD7A800337192 /* AvocadosView.swift */; };
+		F45DD5EA28CBD7D300337192 /* RipeningStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45DD5E928CBD7D300337192 /* RipeningStageView.swift */; };
+		F45DD5EC28CBD7E500337192 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45DD5EB28CBD7E500337192 /* SettingsView.swift */; };
+		F45DD5EE28CBD80800337192 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45DD5ED28CBD80800337192 /* AppView.swift */; };
 		F4A3B3EB28C949130060D579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3B3EA28C949130060D579 /* AppDelegate.swift */; };
 		F4A3B3ED28C949130060D579 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3B3EC28C949130060D579 /* SceneDelegate.swift */; };
 		F4A3B3EF28C949130060D579 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3B3EE28C949130060D579 /* ViewController.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F45DD5E728CBD7A800337192 /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		F45DD5E928CBD7D300337192 /* RipeningStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStageView.swift; sourceTree = "<group>"; };
+		F45DD5EB28CBD7E500337192 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F45DD5ED28CBD80800337192 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		F4A3B3E728C949130060D579 /* Avocados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A3B3EA28C949130060D579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4A3B3EC28C949130060D579 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +47,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F45DD5E428CBD6E400337192 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F45DD5E528CBD70A00337192 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3B3FE28C94A670060D579 /* ContentView.swift */,
+				F45DD5E728CBD7A800337192 /* AvocadosView.swift */,
+				F45DD5E928CBD7D300337192 /* RipeningStageView.swift */,
+				F45DD5EB28CBD7E500337192 /* SettingsView.swift */,
+				F45DD5ED28CBD80800337192 /* AppView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F45DD5E628CBD71200337192 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F4A3B3DE28C949130060D579 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +92,12 @@
 		F4A3B3E928C949130060D579 /* Avocados */ = {
 			isa = PBXGroup;
 			children = (
+				F45DD5E528CBD70A00337192 /* View */,
+				F45DD5E628CBD71200337192 /* Model */,
+				F45DD5E428CBD6E400337192 /* Data */,
 				F4A3B3EA28C949130060D579 /* AppDelegate.swift */,
 				F4A3B3EC28C949130060D579 /* SceneDelegate.swift */,
 				F4A3B3EE28C949130060D579 /* ViewController.swift */,
-				F4A3B3FE28C94A670060D579 /* ContentView.swift */,
 				F4A3B3F028C949130060D579 /* Main.storyboard */,
 				F4A3B3F328C949150060D579 /* Assets.xcassets */,
 				F4A3B3F528C949150060D579 /* LaunchScreen.storyboard */,
@@ -141,7 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45DD5EC28CBD7E500337192 /* SettingsView.swift in Sources */,
+				F45DD5E828CBD7A800337192 /* AvocadosView.swift in Sources */,
+				F45DD5EA28CBD7D300337192 /* RipeningStageView.swift in Sources */,
 				F4A3B3EF28C949130060D579 /* ViewController.swift in Sources */,
+				F45DD5EE28CBD80800337192 /* AppView.swift in Sources */,
 				F4A3B3EB28C949130060D579 /* AppDelegate.swift in Sources */,
 				F4A3B3FF28C94A670060D579 /* ContentView.swift in Sources */,
 				F4A3B3ED28C949130060D579 /* SceneDelegate.swift in Sources */,
@@ -294,6 +334,7 @@
 				DEVELOPMENT_TEAM = ZFAQZ35YP7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Avocados/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,6 +364,7 @@
 				DEVELOPMENT_TEAM = ZFAQZ35YP7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Avocados/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
