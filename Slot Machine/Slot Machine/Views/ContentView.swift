@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    // MARK: - PROPERTIES
+    @State private var showingInfoView: Bool = false
+    
+    // MARK: - BODY
     var body: some View {
         ZStack {
             // MARK: - BACKGROUND
@@ -76,6 +80,7 @@ struct ContentView: View {
                     
                     // MARK: - SPIN BUTTON
                     Button(action: {
+                        
                     }) {
                       Image("gfx-spin")
                         .resizable()
@@ -140,7 +145,7 @@ struct ContentView: View {
             .overlay(
               // INFO
               Button(action: {
-                
+                  self.showingInfoView = true
               }) {
                 Image(systemName: "info.circle")
                   .foregroundColor(.white)
@@ -148,6 +153,9 @@ struct ContentView: View {
               .modifier(ButtonModifier()),
               alignment: .topTrailing
             )
+        } // ZSTACK
+        .sheet(isPresented: $showingInfoView) {
+            InfoView()
         }
     }
 }

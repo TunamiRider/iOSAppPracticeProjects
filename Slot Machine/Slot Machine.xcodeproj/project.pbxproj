@@ -19,6 +19,7 @@
 		F42C2B2228D26DE400C080A7 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C2B2128D26DE400C080A7 /* Modifiers.swift */; };
 		F42C2B2428D26E2400C080A7 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C2B2328D26E2400C080A7 /* LogoView.swift */; };
 		F42C2B2628D26E2900C080A7 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C2B2528D26E2900C080A7 /* ReelView.swift */; };
+		F4F624F028D386A900628F02 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F624EF28D386A900628F02 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F42C2B2128D26DE400C080A7 /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		F42C2B2328D26E2400C080A7 /* LogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		F42C2B2528D26E2900C080A7 /* ReelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		F4F624EF28D386A900628F02 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +70,8 @@
 		F42C2B0228D26ADE00C080A7 /* Slot Machine */ = {
 			isa = PBXGroup;
 			children = (
-				F42C2B1E28D26DA500C080A7 /* Helpers */,
 				F42C2B1B28D26CFB00C080A7 /* Views */,
+				F42C2B1E28D26DA500C080A7 /* Helpers */,
 				F42C2B0328D26ADE00C080A7 /* AppDelegate.swift */,
 				F42C2B0528D26ADE00C080A7 /* SceneDelegate.swift */,
 				F42C2B0728D26ADE00C080A7 /* ViewController.swift */,
@@ -88,6 +90,7 @@
 				F42C2B1C28D26D1200C080A7 /* ContentView.swift */,
 				F42C2B2328D26E2400C080A7 /* LogoView.swift */,
 				F42C2B2528D26E2900C080A7 /* ReelView.swift */,
+				F4F624EF28D386A900628F02 /* InfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				F42C2B2628D26E2900C080A7 /* ReelView.swift in Sources */,
 				F42C2B2428D26E2400C080A7 /* LogoView.swift in Sources */,
 				F42C2B2228D26DE400C080A7 /* Modifiers.swift in Sources */,
+				F4F624F028D386A900628F02 /* InfoView.swift in Sources */,
 				F42C2B0628D26ADE00C080A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
