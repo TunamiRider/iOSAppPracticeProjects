@@ -19,6 +19,7 @@
 		F42C2B2228D26DE400C080A7 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C2B2128D26DE400C080A7 /* Modifiers.swift */; };
 		F42C2B2428D26E2400C080A7 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C2B2328D26E2400C080A7 /* LogoView.swift */; };
 		F42C2B2628D26E2900C080A7 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C2B2528D26E2900C080A7 /* ReelView.swift */; };
+		F4A2A94128D508E9000B6124 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A2A94028D508E9000B6124 /* PlaySound.swift */; };
 		F4F624F028D386A900628F02 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F624EF28D386A900628F02 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		F42C2B2128D26DE400C080A7 /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		F42C2B2328D26E2400C080A7 /* LogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		F42C2B2528D26E2900C080A7 /* ReelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		F4A2A94028D508E9000B6124 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		F4F624EF28D386A900628F02 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 			children = (
 				F42C2B1F28D26DD600C080A7 /* Extensions.swift */,
 				F42C2B2128D26DE400C080A7 /* Modifiers.swift */,
+				F4A2A94028D508E9000B6124 /* PlaySound.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				F42C2B0428D26ADE00C080A7 /* AppDelegate.swift in Sources */,
 				F42C2B1D28D26D1200C080A7 /* ContentView.swift in Sources */,
 				F42C2B2628D26E2900C080A7 /* ReelView.swift in Sources */,
+				F4A2A94128D508E9000B6124 /* PlaySound.swift in Sources */,
 				F42C2B2428D26E2400C080A7 /* LogoView.swift in Sources */,
 				F42C2B2228D26DE400C080A7 /* Modifiers.swift in Sources */,
 				F4F624F028D386A900628F02 /* InfoView.swift in Sources */,
